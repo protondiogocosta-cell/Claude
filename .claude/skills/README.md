@@ -23,7 +23,11 @@ so no extra setup is needed on any surface.
   `dispatching-parallel-agents`, `receiving-code-review`,
   `requesting-code-review`, `writing-skills`, `using-git-worktrees`,
   `finishing-a-development-branch`, `verification-before-completion`).
-  Licensed under MIT — see `LICENSE-superpowers.txt`.
+  Licensed under MIT — see `LICENSE-superpowers.txt`. This is the same
+  `superpowers` plugin listed in Anthropic's official marketplace
+  ([anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)),
+  which pins `obra/superpowers` at commit `b36e082` (release v6.3.0) — the
+  exact commit vendored here, i.e. `superpowers@claude-plugins-official`.
 
   Note: upstream Superpowers is a full plugin that also ships a `SessionStart`
   hook (forces a skill-check reminder into every new conversation) and other
